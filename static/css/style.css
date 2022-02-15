@@ -5,6 +5,11 @@
     text-align: center;
     background-color: rgb(177, 233, 233);
 }
+
+.container-2{
+    background-colour: blanchedalmod;
+}
+
 .flex-box-container-1, .buttons{
     display: flex;
     padding: 10px;
