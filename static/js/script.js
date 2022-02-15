@@ -8,8 +8,24 @@ function ageInDays()
     h3.appendChild(result);
     document.getElementById('flex-box-result').appendChild(h3);
 }
+// try fixing cancel issue
 
 function reset()
 {
     document.getElementById('days').remove();
 }
+
+function generate()
+{
+    var image= document.createElement('img');
+    var div= document.getElementById('cat-img');
+    image.setAttribute('id', 'image');
+    image.src= "http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    div.appendChild(image);
+}
+
+function reset2()
+{
+    document.getElementById('image').remove(); 
+}
+// try removing all contents at once
